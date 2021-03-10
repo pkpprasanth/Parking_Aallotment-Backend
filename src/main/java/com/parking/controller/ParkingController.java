@@ -29,7 +29,7 @@ public class ParkingController {
 	}
 
 	@PostMapping("/")
-	public Parking addUser(@Valid @RequestBody Parking parking) {
+	public Parking addparking(@Valid @RequestBody Parking parking) {
 		return parkingRepository.save(parking);
 	}
 }
